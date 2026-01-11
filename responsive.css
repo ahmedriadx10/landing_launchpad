@@ -221,10 +221,21 @@ grid-template-columns: repeat(2,1fr);
 }
   
 
+.login_area_main{
+  flex-direction: column;
+
+}
 
 
+.login_intro{
+  text-align: center;
+}
 
 
+.login_form{
+  width: 70%;
+  margin: 0 auto;
+}
 
 
 .login_intro h2{
