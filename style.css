@@ -301,6 +301,9 @@ padding: 71px 0;
   outline: 0;
 }
 
+textarea::placeholder{
+  font-style: italic;
+}
 
 
 
@@ -314,7 +317,45 @@ border-radius: 5px;
  }
 
 
+ footer{
+  padding: 103px 0;
+  background-color: #FFFFFF;
+ }
 
+
+ .footer_container{
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  text-align: center;
+ }
+
+ .footer_container h2{
+  font-size: 90px;
+  font-weight: bold;
+  color: #4E47FF;
+ }
+
+
+ .footer_container p{
+  color: #8987A1;
+line-height: 24px;
+
+}
+  
+.navigation_links{
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+}
+
+
+.navigation_links a{
+  text-decoration: none;
+  color: #8987A1;
+}
 
 
 

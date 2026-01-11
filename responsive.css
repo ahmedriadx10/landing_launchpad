@@ -1,0 +1,267 @@
+/* makign responsive */
+
+
+@media screen and (max-width:576px) {
+
+  .container{
+  width: 95%;
+}
+
+section{
+  width: 100%;
+}
+.navigation_menu{
+
+  padding: 50px 20px;
+}
+
+
+
+.hero_info_main{
+  padding: 120px 0;
+}
+
+
+.hero_info h2{
+  font-size: 40px;
+}
+
+
+
+.action_area{
+  padding:50px 0 ;
+
+}
+
+.action_main{
+  flex-direction: column-reverse;
+  text-align: center;
+  gap: 30px;
+  
+}
+
+.user_main{
+
+  padding: 20px;
+
+}
+
+.user_main h3{
+  font-size: 35px;
+}
+
+.user_activity {
+  justify-content: space-between;
+}
+
+.user_activity h6{
+  font-size: 40px;
+
+}
+
+
+.user_activity span{
+
+  font-size: 12px;
+}
+
+
+.user_review{
+  padding: 50px 0;
+}
+
+.review_heading h3{
+  font-size: 38px;
+}
+
+
+.user_reviews{
+  padding: 0 10px;
+display: grid;
+grid-template-columns: repeat(1,1fr);
+gap: 20px;
+}
+  
+
+.focus_area{
+  padding-bottom: 50px;
+}
+
+.focus_main_container{
+  padding: 50px 20px;
+  background-color: #FFFFFF;
+ 
+  border-radius: 14px;
+}
+
+
+.login_area_main{
+
+  display: flex;
+flex-direction: column;
+gap: 35px;
+padding:50px 20px;
+
+}
+
+.login_intro{
+  text-align: center;
+}
+
+.login_intro h2{
+  font-size: 40px;
+}
+
+
+ footer{
+  padding: 50px 0;
+
+ }
+
+
+  .footer_container{
+  width: 100%;
+padding: 0 25px;
+ }
+
+ .footer_container h2{
+  font-size: 55px;
+ }
+
+
+ .focus_main_container img{
+ 
+  border-radius:20px ;
+}
+
+
+
+.action_main img{
+  border-radius: 20px 48px 10px;
+}
+
+
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .container{
+  width: 95%;
+}
+
+section{
+  width: 100%;
+}
+.navigation_menu{
+
+  padding: 50px 20px;
+}
+
+
+
+.hero_info_main{
+  padding: 120px 0;
+}
+
+
+.hero_info h2{
+  font-size: 40px;
+}
+
+
+
+.action_area{
+  padding:50px 0 ;
+
+}
+
+
+
+.user_main{
+
+  padding: 40px;
+
+}
+
+.user_main h3{
+  font-size: 45px;
+}
+
+.user_activity {
+  justify-content: space-around;
+}
+
+.user_activity h6{
+  font-size: 50px;
+
+}
+
+
+.user_activity span{
+
+  font-size: 14px;
+}
+
+
+.user_review{
+  padding: 70px 0;
+}
+
+.review_heading h3{
+  font-size: 48px;
+}
+
+
+.user_reviews{
+
+grid-template-columns: repeat(2,1fr);
+
+
+}
+  
+
+
+
+
+
+
+
+.login_intro h2{
+  font-size: 70px;
+}
+
+
+ footer{
+  padding: 50px 0;
+
+ }
+
+
+  .footer_container{
+    width: 80%;
+  }
+
+
+ .focus_main_container img{
+ 
+  border-radius:40px ;
+}
+
+
+
+.action_main img{
+  border-radius: 20px ;
+}
+}
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+  
+
+ .container{
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+ }
+}
