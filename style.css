@@ -10,6 +10,7 @@
 
 body{
     font-family: "Raleway", sans-serif;
+    background-color: rgb(245, 248, 255);
 }
 img{
   max-width: 100%;
@@ -23,6 +24,7 @@ img{
   border-radius: 10px;
   border: none;
   cursor: pointer;
+  max-width:max-content;
 
 }
 
@@ -36,6 +38,7 @@ img{
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
+
 }
 
 .navigation_menu{
@@ -71,4 +74,80 @@ img{
 .hero_info .hero_button_area{
   text-align: center;
   margin-top:34px ;
+}
+
+
+.action_area{
+  padding:116px 0 ;
+
+}
+
+
+.action_main{
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.action_main .action_info{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 500px;
+}
+
+.action_main img{
+  border-radius: 48px;
+}
+
+
+.action_main h4{
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+}
+
+.action_info p{
+  font-size: 24px;
+  color: #252432;
+  line-height: 30px;
+}
+
+
+
+/* user activity */
+
+.user_main{
+  border-radius: 24px;
+  background-color:#4d47ff1f ;
+  padding: 50px;
+  text-align: center;
+}
+
+
+.user_main h3{
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 40px;
+}
+
+
+.user_activity{
+  display: flex;
+  justify-content: space-around;
+    font-family: "Inter", sans-serif;
+}
+
+.user_activity h6{
+  font-size: 80px;
+  font-weight: bold;
+  color: #4E47FF;
+}
+
+
+.user_activity span{
+  color: #00000073;
+  font-size: 20px;
 }
