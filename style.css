@@ -1,0 +1,74 @@
+*,*::after,*::before{
+
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+img{
+  max-width: 100%;
+}
+
+.btn{
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 13px 36px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.hero_area{
+  background-image: url(./Assets/Hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.navigation_menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.navigation_menu h3{
+  font-size: 32px;
+  color: #4E47FF;
+  font-weight: bold;
+}
+
+.hero_info_main{
+  padding: 158px 0;
+}
+
+.hero_info{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+ 
+
+}
+
+.hero_info h2{
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+}
+
+.hero_info .hero_button_area{
+  text-align: center;
+  margin-top:34px ;
+}
