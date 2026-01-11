@@ -151,3 +151,64 @@ img{
   color: #00000073;
   font-size: 20px;
 }
+
+
+/* user review area design */
+
+.user_review{
+  padding: 137px 0;
+}
+
+.review_heading {
+  text-align: center;
+  margin-bottom: 50px
+}
+.review_heading h3{
+  font-size: 42px;
+  color: #252432;
+  font-weight: bold;
+}
+
+.user_reviews{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+}
+
+.review{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+  padding: 24px;
+}
+
+
+.review .user_profile_template{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.review .user_profile_template img{
+  border-radius: 50%;
+}
+
+.user_profile_template .user_name{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 12px;
+}
+
+.review p{
+  color: #1E1E1E;
+  
+}
+
+.review h6{
+  font-size:20px ;
+  font-weight: 500;
+  color:#1E1E1E ;
+}
